@@ -15,13 +15,10 @@
 import argparse
 import json
 import os
-
 from typing import List
 
 import numpy as np
-
 import rerun as rr
-
 from projectaria_tools.core import data_provider, mps
 from projectaria_tools.core.calibration import CameraCalibration
 from projectaria_tools.core.mps import MpsDataPathsProvider
@@ -34,7 +31,6 @@ from projectaria_tools.core.sensor_data import SensorData, SensorDataType, TimeD
 from projectaria_tools.core.sophus import SE3
 from projectaria_tools.core.stream_id import StreamId
 from projectaria_tools.utils.rerun_helpers import ToTransform3D
-
 from tqdm import tqdm
 
 
